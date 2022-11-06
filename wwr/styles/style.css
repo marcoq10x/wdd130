@@ -1,19 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Rubik+Moonrocks&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: aqua; 
+    --secondary-color: #000000;
+    --accent1-color: #f72585;
+    --accent2-color: white;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Rubik Moonrocks";
+    --paragraph-font: Aref Ruqaa Ink, Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white:aqua;
+    /* headlines on a white background */
+    --headline-color-on-color: 000000;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #f72585;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: 000000;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: aqua; 
+    --nav-link-color: #396E94;
+    --nav-background-color: #f72585;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+}
+
 div {
     max-width: 1600px;
   }
 
   div {
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 nav a {
-    text-align: center;
+    text-align: left;
     color: #396e94
 }
 
 nav a {
     text-decoration: none;
+    padding: 35px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-msg h1 {
@@ -31,6 +68,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
@@ -39,9 +80,24 @@ body {
     background-color: white;
 }
 
+body {
+    font-family: "Aruf Ruqaa Ink", "Rubik Moonrocks";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: aqua
 }
+
+header {
+    font-family: "Aref Ruqaa ink";
+}
+
 
 nav a :hover {
     background-color:#396e94
@@ -60,7 +116,12 @@ nav a :hover {
 
 .book {
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 
 .join {
     background-color:  aqua
@@ -72,6 +133,13 @@ nav a :hover {
 
 .join {
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px
+}
+
+.join {
+    border-radius: 5px;
 }
 
 .book :hover {
@@ -90,13 +158,27 @@ nav a :hover {
     background-color:  white
 }
 
+.card-img {
+    border: 10px solid #d9c2a3
+}
+
 #background {
     background-color:  #f72585
 }
 
-.msg {
-    background-color: #396e94 
+.rivers-card {
+    margin: 200px 0;
 }
+
+
+.camping-card {
+    margin: 200px 0;
+} 
+
+.rapids-card {
+    margin: 200px 0;
+}
+
 
 footer {
     background-color:aqua
@@ -105,6 +187,12 @@ footer {
 footer {
     color: black
 }
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
 footer a {
     color:blue
 }
@@ -125,9 +213,20 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color:#f72585
+    }
+
+.home-title {
+    font-family: "Aref Ruqaa Ink", "Helvetica", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
+
 
 h4 {
     color:black
@@ -137,12 +236,31 @@ h4 {
     color:black
 }
 
+.msg h2 {
+    font-family: "Aref Ruqaa Ink", "Rubik Moonrocks"; 
+}
+
 .msg p {
     color:black
 }
 
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    background-color: #396e94 
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -151,9 +269,8 @@ h4 {
 
 #hero-img {
     width: 100%;
+    border: 5px solid #0ff
 }
 
-.join {
-    text-decoration: none;
-}
+
 
