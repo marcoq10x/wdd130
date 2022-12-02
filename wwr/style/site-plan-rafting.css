@@ -15,7 +15,7 @@ Fonts are separated by a & */
     --paragraph-font: Aref Ruqaa Ink, Helvetica, sans-serif;
 
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white:aqua;
+    --headline-color-on-white: aqua;
     /* headlines on a white background */
     --headline-color-on-color: 000000;
     /* headlines on a colored background */
