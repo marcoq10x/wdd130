@@ -1,0 +1,272 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lavishly Yours",cursive;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+    position:relative;
+    opacity:0.9;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('../images/facial.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('../images/candle.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('../images/saltoat.jpg');
+    min-height:400px;
+  }
+  
+  .pimg4{
+    background-image:url('../images/aurora.jpg');
+    min-height:1200px;
+    width: 100%;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:aqua;
+    border: 5px solid aqua;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:aqua;
+    padding: 2px;
+    border: 5px solid aqua;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+  .pimg5, .pimg6, .pimg7 {
+    position:relative;
+    opacity:0.9;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .pimg5{
+    background-image:url('../images/girls.jpg');
+    min-height:600px;
+  }
+  
+  .pimg6{
+    background-image:url('../images/hotfacial.jpg');
+    min-height:500px;
+  }
+  
+  .pimg7{
+    background-image:url('../images/waterfall.jpg');
+    min-height:1200px;
+    width: 100%;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color: aqua;
+    border: 5px solid aqua;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:aqua;
+    padding: 2px;
+    border: 5px solid aqua;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+
+  .pimg8, .pimg9, .pimg10 {
+    position:relative;
+    opacity:0.9;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+  
+  .pimg8{
+    background-image:url('../images/soap.jpg');
+    min-height:600px;
+  }
+  
+  .pimg9{
+    background-image:url('../images/facialblack.jpg');
+    min-height:350px;
+  }
+  
+  .pimg10{
+    background-image:url('../images/snowtop.jpg');
+    min-height:600px;
+    width: 100%;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color: aqua;
+    border: 5px solid aqua;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:aqua;
+    padding: 2px;
+    border: 5px solid aqua;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10{
+      background-attachment:scroll;
+    }
+  }
+  
