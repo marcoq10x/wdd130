@@ -25,7 +25,7 @@
 
 .grid container {
   display: grid;
-  max-width: 1600px;
+  max-width: 1900px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -82,7 +82,7 @@ footer {
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family:"Cinzel Decorative", cursive
 }
@@ -332,7 +332,6 @@ body, html{
   
   /* Add a gray background color with some padding */
   body {
-    font-family: Arial;
     padding: 5px;
     background: #282e34;
     font-family:"Cinzel Decorative", cursive
@@ -381,12 +380,125 @@ body, html{
     clear: both;
   }
   
+  footer a :hover {
+    color:white
+  }
+  
+  footer a {
+    font-size: .8em;
+    width: 300px;
+  }
+
+  footer p {
+    font-size: .8em;
+    width: 300px;
+  }    
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+
+  .pimg11{
+    background-image:url('../images/contactus.jpg');
+    min-height:600px;
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: 130px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
+  #feedback {
+    background-color:#3aa3ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 
   @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10{
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11{
       background-attachment:scroll;
     }
-    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10 {
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11 {
       position:relative;
       opacity:0.9;
       background-position:center;
@@ -398,5 +510,10 @@ body, html{
       */
       background-attachment:fixed;
     }
+
+    footer p {
+      font-size: .8em;
+      width: 300px;
+    }    
   }
   
