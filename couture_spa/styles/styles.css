@@ -509,7 +509,7 @@ body, html{
         fixed = parallax
         scroll = normal
       */
-     
+      background-attachment: scroll;
     }
 
     footer p {
