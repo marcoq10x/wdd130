@@ -495,11 +495,26 @@ body, html{
 }
 
 
-  
-    @media(max-width:648px){
-      .tour-single .parallax-section-header{
-        height: 300px;
-      }
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11{
+      background-attachment:scroll;
     }
-  
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11 {
+      position:relative;
+      opacity:0.9;
+      background-position:center;
+      background-size:cover;
+      background-repeat:no-repeat;
+      /*
+        fixed = parallax
+        scroll = normal
+      */
+     
+    }
+
+    footer p {
+      font-size: .8em;
+      width: 300px;
+    }    
+  }
   
